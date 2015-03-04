@@ -3,8 +3,17 @@
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
-datasets. We will be using the "Individual household
-electric power consumption Data Set" at <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
+datasets. 
+
+## Loading the data
+
+This project used the "Individual household electric power consumption Data Set" at <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
+
+To run the scripts, you first need to unzip the file and make sure to put "household_power_consumption.txt" in your working directory. 
+
+## Data
+
+Each of the four scripts reads only the data from February 1-2, 2007, which is 2,880 rows and 9 columns. 
 
 <b>Description</b>: Measurements of electric power consumption in
 one household with a one-minute sampling rate over a period of almost
@@ -28,7 +37,5 @@ web site</a>:
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
 
-## Loading the data
 
-Each of the four scripts reads only the data from February 1-2, 2007, which is 2,880 rows and 9 columns. 
 
